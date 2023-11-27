@@ -1,0 +1,29 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background: $black;
+    color: $cream;
+    border: 3px solid $medium-blue;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background: $lighter-blue;
+    color: $black;
+    border: 3px solid $medium-blue;
+}
+
+button.active {
+    background: $lighter-blue;
+    color: $black;
+    border: 3px solid $medium-blue;
+}
